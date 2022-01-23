@@ -4,21 +4,21 @@
  * @copyright 2021-2022 IntegerEleven. All rights reserved. MIT license.
  */
 
-//  Type imports from `/deps.ts`
+//  Type imports from `/deps.ts` (alphabetical)
 //  import type { Type }  from "../deps.ts"
 
-//  Feature imports from `/deps.ts`
+//  Feature imports from `/deps.ts` (alphabetical)
 //  import { Feature }  from "../deps.ts"
 
-//  Type imports from local files
+//  Type imports from local files (alphabetical: files and features from files)
 //  import type { Type }  from "./MyFile.ts"
 
-//  Feature imports from local files
+//  Feature imports from local files (alphabetical: files and features from files)
 //  import { Feature }  from "./MyFile.ts"
 
-//  Constant value imports from local files
+//  Constant value imports from local files (alphabetical: files and constants from files)
 //  import { CONSTANTS }  from "./constants.ts"
 
-//  Export public API features
+//  Export public API features (alphabetical when possible)
 
-//  Internal features
+//  Internal features (alphabetical when possible)

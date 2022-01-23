@@ -1,0 +1,8 @@
+mkdir ./_templates
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_Class.template.ts -o ./_templates/_Class.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_ClassTest.template.ts -o ./_templates/_ClassTest.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_Functions.template.ts -o ./_templates/_Functions.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_FunctionsTest.template.ts -o ./_templates/_FunctionsTest.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_mod.template.ts -o ./_templates/_mod.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_Other.template.ts -o ./_templates/_Other.template.ts
+curl -k https://denopkg.com/partic11e/common@dev/tooling/_OtherTest.template.ts -o ./_templates/_OtherTest.template.ts

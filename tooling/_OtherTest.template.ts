@@ -10,6 +10,12 @@
 //  Feature imports from `/deps.ts` (alphabetical)
 //  import { Feature }  from "../deps.ts"
 
+//  Type imports from `/dev_deps.ts` (alphabetical)
+//  import type { Type }  from "../dev_deps.ts"
+
+//  Feature imports from `/dev_deps.ts` (alphabetical)
+//  import { Feature }  from "../dev_deps.ts"
+
 //  Type imports from local files (alphabetical: files and features from files)
 //  import type { Type }  from "./MyFile.ts"
 
@@ -19,9 +25,9 @@
 //  Constant value imports from local files (alphabetical: files and constants from files)
 //  import { CONSTANTS }  from "./constants.ts"
 
-//  Export class-specific types (alphabetical)
-//  export type SomeType = string | boolean;
+//  Test data imports (alphabetical: files and constants from files)
+//  import { TEST_DATA }  from "./testfixtures.ts"
 
-//  Export public API functions (alphabetical)
+//  Define test data
 
-//  Internal functions (alphabetical)
+//  Test features (alphabetical)
