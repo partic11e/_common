@@ -1,6 +1,10 @@
 /**
  * The global shared types for the particle11 core library.
+ * 
+ * @copyright 2021-2022 IntegerEleven. All rights reserved. MIT license.
  */
+
+//  TODO: Document types
 
  export type CodeBaseType =
  | "module"

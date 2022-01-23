@@ -1,3 +1,11 @@
+/**
+ * Commonly used enums describing the IntegerEleven ecosystem and partic11e library features.
+ * 
+ * @copyright 2021-2022 IntegerEleven. All rights reserved. MIT license.
+ */
+
+//  TODO: Document enums
+
 export enum CodeBase {
   Module = "module",
   Library = "library",
