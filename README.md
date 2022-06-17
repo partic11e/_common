@@ -1,2 +1,2 @@
-# core
-The particle11 core library modules.
+# common
+Shared common features for partic11e modules.
