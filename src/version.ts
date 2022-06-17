@@ -1,11 +1,13 @@
-
 /**
- * The version of the partic11e common module.
- * 
- * @copyright 2021-2022 IntegerEleven. All rights reserved. MIT license.
+ * The version of the partic11e library common module.
+ *
+ * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
+//  #region export-version
 /**
- * The version of the partic11e common module.
+ * The version of the partic11e library common module.
  */
-export const VERSION = "0.0.0";
+ export const VERSION = "0.1.0-alpha";
+ //  #endregion
+ 

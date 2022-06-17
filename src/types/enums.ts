@@ -1,10 +1,28 @@
 /**
- * Commonly used enums describing the IntegerEleven ecosystem and partic11e library features.
- * 
- * @copyright 2021-2022 IntegerEleven. All rights reserved. MIT license.
+ * The global shared enums for the partic11e library.
+ *
+ * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
-//  TODO: Document enums
+//  #region feature-import-remote
+//  #endregion
+
+//  #region feature-import-local
+//  #endregion
+
+//  #region type-import-remote
+//  #endregion
+
+//  #region type-import-local
+//  #endregion
+
+//  #region constants-local
+//  #endregion
+
+//  #region type-export-file
+//  #endregion
+
+//  #region export-features
 
 export enum CodeBase {
   Module = "module",
@@ -50,3 +68,7 @@ export enum Parser {
   JSON = "JSON",
   String = "string",
 }
+//  #endregion
+
+//  #region internal
+//  #endregion
