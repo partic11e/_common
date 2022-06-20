@@ -1,6 +1,6 @@
 /**
- * The global shared types for the partic11e library p11 module.
- * 
+ * The global shared types for the partic11e library.
+ *
  * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
@@ -20,56 +20,154 @@
 //  #endregion
 
 //  #region type-export-file
-
+/**
+ * A type representing the string-literals of IntegerEleven recognized types of code-bases.
+ *
+ * These values may evolve over time.
+ */
 export type CodeBaseType =
-| "module"
-| "library"
-| "framework"
-| "extension"
-| "plugin"
-| "adapter"
-| "toolkit"
-| "sdk"
-| "api"
-| "platform"
-| string;
+  /**
+   * A module.
+   */
+  | "module"
+  /**
+   * A library.
+   */
+  | "library"
+  /**
+   * A framework.
+   */
+  | "framework"
+  /**
+   * An extension.
+   */
+  | "extension"
+  /**
+   * A plugin.
+   */
+  | "plugin"
+  /**
+   * An adapter.
+   */
+  | "adapter"
+  /**
+   * A toolkit.
+   */
+  | "toolkit"
+  /**
+   * A sdk.
+   */
+  | "sdk"
+  /**
+   * An api.
+   */
+  | "api"
+  /**
+   * A platform.
+   */
+  | "platform";
 
+/**
+ * A type representing the string-literals of IntegerEleven recognized types of system operations.
+ *
+ * These values may evolve over time.
+ */
 export type OperationType =
-| "build"
-| "thread"
-| "operation"
-| "workflow"
-| "process"
-| "action"
-| string;
+  /**
+   * A build operation.
+   */
+  | "build"
+  /**
+   * An OS thread.
+   */
+  | "thread"
+  /**
+   * A generic operation.
+   */
+  | "operation"
+  /**
+   * A workflow.
+   */
+  | "workflow"
+  /**
+   * A process.
+   */
+  | "process"
+  /**
+   * An action.
+   */
+  | "action";
 
+/**
+ * A type representing the string-literals of types of TypeScript decorators.
+ */
 export type DecoratorType =
-| "class"
-| "method"
-| "accessor"
-| "property"
-| "parameter"
-| string;
+  /**
+   * A class decorator.
+   */
+  | "class"
+  /**
+   * A method decorator.
+   */
+  | "method"
+  /**
+   * An accessor decorator.
+   */
+  | "accessor"
+  /**
+   * A property decorator.
+   */
+  | "property"
+  /**
+   * A parameter decorator.
+   */
+  | "parameter";
 
+/**
+ * A type representing the string-literals of types of resources.
+ *
+ * These values may evolve over time.
+ */
 export type ResourceType =
-| "file"
-| "directory"
-| string;
+  /**
+   * A file in a file system.
+   */
+  | "file"
+  /**
+   * A directory in a file system.
+   */
+  | "directory";
 
-export type FormatterType = 
-| "date"
-| "number"
-| string;
+/**
+ * A type representing the string-literals of default formatters.
+ *
+ * These values may evolve over time.
+ */
+export type FormatterType =
+  /**
+   * A date formatter.
+   */
+  | "date"
+  /**
+   * A number formatter.
+   */
+  | "number";
 
-export type ParserType = 
-| "JSON"
-| "string";
+/**
+ * A type representing the string-literals of default parsers.
+ *
+ * These values may evolve over time.
+ */
+export type ParserType =
+  /**
+   * A JSON parser.
+   */
+  | "JSON"
+  /**
+   * A string parser.
+   */
+  | "string";
 //  #endregion
 
 //  #region export-features
 //  #endregion
-
-//  #region internal
-//  #endregion
-
-//  TODO: Document types

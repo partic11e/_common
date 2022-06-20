@@ -8,6 +8,5 @@
 /**
  * The version of the partic11e library common module.
  */
- export const VERSION = "0.1.0-alpha";
- //  #endregion
- 
+export const VERSION = "1.0.0-alpha.0";
+//  #endregion
