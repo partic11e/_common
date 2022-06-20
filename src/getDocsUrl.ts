@@ -1,6 +1,6 @@
 /**
  * Contains the getDocsUrl function and associated types.
- * 
+ *
  * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
@@ -25,14 +25,16 @@ import { P11_DOC_BASE } from "./_internals/_constants.ts";
 
 //  #region export-features
 /**
- * Takes a version string and returns a URL representing the documentation
+ * Takes a module name, and an optional version string, and returns a URL representing the documentation
  * location for the version of the module.
- * 
- * @param version The version string for the module.
+ *
+ * @param moduleName The name of the module.
+ * @param version The version string for the module. Defaults to `"@latest"`.
  * @returns A URL representing the documentation location for the version
  * of the module.
  */
-export const getDocsUrl = (version?: string): string => version ? `${P11_DOC_BASE}/${version}` : P11_DOC_BASE;
+export const getDocsUrl = (moduleName: string, version = "@latest"): string =>
+  `${P11_DOC_BASE}${moduleName}/${version}/`;
 //  #endregion
 
 //  #region internal

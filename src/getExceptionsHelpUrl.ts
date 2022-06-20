@@ -1,6 +1,6 @@
 /**
  * Contains the getExceptionsHelpUrl function and associated types.
- * 
+ *
  * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
@@ -25,14 +25,18 @@ import { P11_EXCDOC_BASE } from "./_internals/_constants.ts";
 
 //  #region export-features
 /**
- * Takes a version string and returns a URL representing the Exception
- * explanation location for the version of the module.
- * 
- * @param version The version string for the module.
+ * Takes an exception name, and an optional version string, and returns a URL representing the Exception
+ * explanation location for the version of the exception.
+ *
+ * @param exceptionName The name of the exception.
+ * @param version The version string for the exception. Defaults to `"@latest"`.
  * @returns A URL representing the Exception explanation location for the
- * version of the module.
+ * version of the exception.
  */
- export const getExceptionsHelpUrl = (version?: string): string => version ? `${P11_EXCDOC_BASE}/${version}` : P11_EXCDOC_BASE;
+export const getExceptionsHelpUrl = (
+  exceptionName: string,
+  version = "@latest",
+): string => `${P11_EXCDOC_BASE}${exceptionName}/${version}`;
 //  #endregion
 
 //  #region internal

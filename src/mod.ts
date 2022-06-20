@@ -1,6 +1,6 @@
 /**
  * Source-level exports of the public API for the partic11e library common module.
- * 
+ *
  * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
  */
 
