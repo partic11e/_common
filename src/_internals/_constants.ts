@@ -1,7 +1,7 @@
 /**
  * Internal constants for use with the partic11e library.
  *
- * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
+ * @copyright 2022 integer11. All rights reserved. MIT license.
  */
 
 /**
