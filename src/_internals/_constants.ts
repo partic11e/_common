@@ -7,9 +7,9 @@
 /**
  * The base URL for partic11e documentation.
  */
-export const P11_DOC_BASE = "http://p11-docs.i11n.org/#/";
+export const P11_DOC_BASE = "http://p11-docs.i11n.org/";
 
 /**
  * The base URL for the partic11e Exception exception utility.
  */
-export const P11_EXCDOC_BASE = "http://p11-docs.i11n.org/#/ex-plain/";
+export const P11_EXCDOC_BASE = "http://p11-docs.i11n.org/ex-plain/";
