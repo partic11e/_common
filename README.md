@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="partic11e logo" height="70" src="./banner.png" />
+  <img alt="partic11e logo" height="70" src="https://raw.githubusercontent.com/partic11e/.github/main/profile/p11/logotype.svg" />
   <strong>common</strong>
 </p>
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <sub>Built with ❤ by IntegerEleven and <a href="https://github.com/partic11e/common/graphs/contributors">contributors</a></sub>
+  <sub>Built with ❤ by integer11 and <a href="https://github.com/partic11e/common/graphs/contributors">contributors</a></sub>
 </p>
 
 <p align="center">
@@ -79,5 +79,4 @@ started.
 
 [(to top)](#table-of-contents)
 
-The MIT License (MIT) 2022 &middot; IntegerEleven. Refer to
-[LICENSE](./LICENSE) for details.
+The MIT License (MIT) 2022 &middot; integer11. Refer to [LICENSE](LICENSE) for details.

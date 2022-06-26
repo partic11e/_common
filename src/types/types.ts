@@ -1,7 +1,7 @@
 /**
  * The global shared types for the partic11e library.
  *
- * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
+ * @copyright 2022 integer11. All rights reserved. MIT license.
  */
 
 //  #region feature-import-remote
@@ -21,7 +21,7 @@
 
 //  #region type-export-file
 /**
- * A type representing the string-literals of IntegerEleven recognized types of code-bases.
+ * A type representing the string-literals of integer11 recognized types of code-bases.
  *
  * These values may evolve over time.
  */
@@ -68,7 +68,7 @@ export type CodeBaseType =
   | "platform";
 
 /**
- * A type representing the string-literals of IntegerEleven recognized types of system operations.
+ * A type representing the string-literals of integer11 recognized types of system operations.
  *
  * These values may evolve over time.
  */

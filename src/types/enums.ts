@@ -1,7 +1,7 @@
 /**
  * The global shared enums for the partic11e library.
  *
- * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
+ * @copyright 2022 integer11. All rights reserved. MIT license.
  */
 
 //  #region feature-import-remote
@@ -25,7 +25,7 @@
 //  #region export-features
 
 /**
- * An enum defining the IntegerEleven recognized types of code-bases.
+ * An enum defining the integer11 recognized types of code-bases.
  *
  * These values may evolve over time.
  */
@@ -82,7 +82,7 @@ export enum CodeBaseEnum {
 }
 
 /**
- * An enum defining the IntegerEleven recognized types of system operations.
+ * An enum defining the integer11 recognized types of system operations.
  *
  * These values may evolve over time.
  */

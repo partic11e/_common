@@ -1,7 +1,7 @@
 /**
  * The global shared enums, interfaces, and types for the partic11e library common module.
  *
- * @copyright 2022 IntegerEleven. All rights reserved. MIT license.
+ * @copyright 2022 integer11. All rights reserved. MIT license.
  */
 
 //  #region export-types
